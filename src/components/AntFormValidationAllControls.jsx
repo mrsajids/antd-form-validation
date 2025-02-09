@@ -113,10 +113,7 @@ const AntFormValidationAllControls = () => {
           rules={textWithoutSpacesValidation("Float No", 5)}
         >
           <Input
-            onBeforeInput={handleBeforeInput(
-              validations.numberrwithpoint,
-              10
-            )}
+            onBeforeInput={handleBeforeInput(validations.numberrwithpoint, 10)}
             placeholder="Enter your name"
           />
         </Form.Item>
